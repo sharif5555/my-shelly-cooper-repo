@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    height: 90vh;
+    width: 100%;
+    background-image:url(https://plus.unsplash.com/premium_photo-1714023800301-83390690e1f0?q=80&w=1430&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.content{
+    color: gold;
+    text-align: center;
+    width: 70%;
+}
+ h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rgb(225, 225, 233);
+}
+ p{
+    font-size: 25px;
+    margin: 15px 0;
+}
+button{
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: blue;
+    padding: 20px 30px;
+    color: aliceblue;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: aqua;
+    transition: 0.5s ease-in;
+}
